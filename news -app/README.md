@@ -2,6 +2,13 @@
 
 This is a simple React application that displays news articles fetched from the News API. It is built using Bootstrap for styling.
 
+
+
+https://github.com/curious-Abhi/REACT-JS-PROJECT/assets/139208472/85608940-2355-46de-b84c-a6df691cc51d
+
+
+
+
 ## Features
 
 - Displays latest news articles based on selected category.

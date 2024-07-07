@@ -47,7 +47,7 @@ const App=()=>{
 
             <button onClick={handleCalculate}>=</button>
             <button onClick={()=>{handleClick('/')}}>/</button>
-            <button onClick={handleClear}>C</button>
+            <button onClick={handleClear}></button>
           </div>
   
         </div>

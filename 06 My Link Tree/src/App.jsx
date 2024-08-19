@@ -12,7 +12,7 @@ const App = () => {
       <section className="section portfolio">
         <h2 className="section-title">My Portfolio</h2>
         <div className="links">
-          <a href="https://yourportfolio.com" target="_blank" rel="noopener noreferrer" className="link-item">
+          <a href="https://beautiful-lily-99f642.netlify.app/" target="_blank" rel="noopener noreferrer" className="link-item">
             <AiOutlineGlobal className="icon portfolio-icon" />
             <span>My Portfolio</span>
           </a>
@@ -22,17 +22,17 @@ const App = () => {
       <section className="section social">
         <h2 className="section-title">Social Links</h2>
         <div className="links">
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="link-item">
+          <a href="https://github.com/curious-Abhi" target="_blank" rel="noopener noreferrer" className="link-item">
             <FaGithub className="icon github-icon" />
             <span>GitHub</span>
           </a>
 
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="link-item">
+          <a href="https://www.linkedin.com/in/kumarabhi01/" target="_blank" rel="noopener noreferrer" className="link-item">
             <FaLinkedin className="icon linkedin-icon" />
             <span>LinkedIn</span>
           </a>
 
-          <a href="https://youtube.com/yourchannel" target="_blank" rel="noopener noreferrer" className="link-item">
+          <a href="https://www.youtube.com/@curiousabhi550" target="_blank" rel="noopener noreferrer" className="link-item">
             <FaYoutube className="icon youtube-icon" />
             <span>YouTube</span>
           </a>

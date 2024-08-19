@@ -1,3 +1,5 @@
+
+
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
@@ -5,6 +7,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('https://img.freepik.com/free-vector/3d-wireframe-grid-room-background_53876-97990.jpg?size=626&ext=jpg&ga=GA1.1.1645390701.1719544003&semt=ais_hybrid');
+  background-size: cover;
+  background-position: center;
 }
 
 .linktree-container {
@@ -12,10 +16,11 @@ body {
   margin: 0 auto;
   padding: 20px;
   text-align: center;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.9);
+  position: relative;
+  overflow: hidden;
 }
 
 .header {
@@ -40,7 +45,6 @@ body {
   gap: 10px;
 }
 
-
 .link-item {
   display: flex;
   align-items: center;
@@ -51,27 +55,93 @@ body {
   text-decoration: none;
   color: #333;
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(-20px); /* Initial position for animation */
+  animation: fallIn 0.5s forwards; /* Animation */
 }
 
-.link-item:hover {
-  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-  color: #333;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px);
+@keyframes fallIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
+.link-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.link-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.link-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.link-item:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.link-item:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.link-item:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.link-item:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.link-item:nth-child(8) {
+  animation-delay: 0.8s;
+}
 
+/* Icon Styles */
 .icon {
-  margin-right: 10px;
   font-size: 1.5em;
+  margin-right: 10px;
 }
 
-.portfolio-icon { color: #007bff; }
-.github-icon { color: #333; }
-.linkedin-icon { color: #0077b5; }
-.youtube-icon { color: #ff0000; }
-.instagram-icon { color: #e4405f; }
-.gfg-icon { color: #14a800; }
-.leetcode-icon { color: #f6c947; }
-.codeforces-icon { color: #003a8c; }
-.hackerrank-icon { color: #00e4a5; }
+.portfolio-icon {
+  color: #007bff;
+}
+
+.github-icon {
+  color: #333;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+}
+
+.youtube-icon {
+  color: #ff0000;
+}
+
+.instagram-icon {
+  color: #e4405f;
+}
+
+.gfg-icon {
+  color: #0f9d58;
+}
+
+.leetcode-icon {
+  color: #f3c623;
+}
+
+.codeforces-icon {
+  color: #003a70;
+}
+
+.hackerrank-icon {
+  color: #2c3e50;
+}
+
+/* Hover Effects */
+.link-item:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 80%);
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}

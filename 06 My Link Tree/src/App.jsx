@@ -47,7 +47,7 @@ const App = () => {
       <section className="section coding">
         <h2 className="section-title">Coding Platforms</h2>
         <div className="links">
-          <a href="https://geeksforgeeks.org/yourprofile" target="_blank" rel="noopener noreferrer" className="link-item">
+          <a href="https://www.geeksforgeeks.org/user/abhishekwbdk/" target="_blank" rel="noopener noreferrer" className="link-item">
             <SiGeeksforgeeks className="icon gfg-icon" />
             <span>Geeks for Geeks</span>
           </a>
@@ -57,12 +57,12 @@ const App = () => {
             <span>LeetCode</span>
           </a>
 
-          <a href="https://codeforces.com/profile/yourprofile" target="_blank" rel="noopener noreferrer" className="link-item">
+          <a href="https://codeforces.com/profile/curiousabhi" target="_blank" rel="noopener noreferrer" className="link-item">
             <SiCodeforces className="icon codeforces-icon" />
             <span>Codeforces</span>
           </a>
 
-          <a href="https://www.hackerrank.com/yourprofile" target="_blank" rel="noopener noreferrer" className="link-item">
+          <a href="https://www.hackerrank.com/profile/abhishekk67781" target="_blank" rel="noopener noreferrer" className="link-item">
             <SiHackerrank className="icon hackerrank-icon" />
             <span>HackerRank</span>
           </a>

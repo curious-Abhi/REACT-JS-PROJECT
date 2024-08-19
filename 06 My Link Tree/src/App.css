@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/free-vector/3d-wireframe-grid-room-background_53876-97990.jpg?size=626&ext=jpg&ga=GA1.1.1645390701.1719544003&semt=ais_hybrid');
+}
+
+.linktree-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.header {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.link-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: #e9ecef;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.link-item:hover {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  color: #333;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.portfolio-icon { color: #007bff; }
+.github-icon { color: #333; }
+.linkedin-icon { color: #0077b5; }
+.youtube-icon { color: #ff0000; }
+.instagram-icon { color: #e4405f; }
+.gfg-icon { color: #14a800; }
+.leetcode-icon { color: #f6c947; }
+.codeforces-icon { color: #003a8c; }
+.hackerrank-icon { color: #00e4a5; }

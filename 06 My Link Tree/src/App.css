@@ -1,5 +1,3 @@
-
-
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
@@ -29,6 +27,36 @@ body {
   color: #333;
 }
 
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  animation: rgbBorder 3s infinite;
+}
+
+@keyframes rgbBorder {
+  0% {
+    border-color: red;
+  }
+  33% {
+    border-color: green;
+  }
+  66% {
+    border-color: blue;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+/* Section Styles */
 .section {
   margin: 20px 0;
 }
@@ -55,9 +83,9 @@ body {
   text-decoration: none;
   color: #333;
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  opacity: 0; /* Initially hidden */
-  transform: translateY(-20px); /* Initial position for animation */
-  animation: fallIn 0.5s forwards; /* Animation */
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fallIn 0.5s forwards;
 }
 
 @keyframes fallIn {
@@ -118,6 +146,13 @@ body {
   color: #ff0000;
 }
 
+.twitter-icon {
+  color: #1DA1F2; 
+}
+
+
+
+
 .instagram-icon {
   color: #e4405f;
 }
@@ -138,10 +173,11 @@ body {
   color: #2c3e50;
 }
 
+
 /* Hover Effects */
 .link-item:hover {
-  background: hsl(0, 0%, 100%);
+  background: hsl(203, 93%, 29%);
   color: hsl(0, 0%, 80%);
-  transform: translateY(-5px); /* Slight lift effect */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

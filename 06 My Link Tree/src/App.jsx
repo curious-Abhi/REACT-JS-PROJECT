@@ -15,7 +15,7 @@ const App = () => {
       <div className="profile-pic-container">
         <img src="./mypic.png" alt="Profile" className="profile-pic" />
       </div>
-      <h3>Computer Science Engineer</h3>
+      <h1>Computer Science Engineer</h1>
       <h1 className="header">My TopLinks</h1>
 
       <section className="section portfolio">
@@ -66,7 +66,7 @@ const App = () => {
             <span>YouTube</span>
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://x.com/Curious_Abhi01"
             target="_blank"
             rel="noopener noreferrer"
             className="link-item"
@@ -76,7 +76,7 @@ const App = () => {
           </a>
 
           <a
-            href="https://instagram.com/yourprofile"
+            href="https://www.instagram.com/curious_abhi.1/"
             target="_blank"
             rel="noopener noreferrer"
             className="link-item"
@@ -101,7 +101,7 @@ const App = () => {
           </a>
 
           <a
-            href="https://leetcode.com/yourprofile"
+            href="https://leetcode.com/u/abhishekk67781/"
             target="_blank"
             rel="noopener noreferrer"
             className="link-item"
